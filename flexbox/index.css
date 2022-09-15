@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 10px;
+    line-height: 1.5;
+}
+
+.checkboxing img {
+    width: 250px;
+}
+
+.checkboxing img:hover{
+    border: rgb(0, 72, 255) 2px solid;
+    border-radius: 5px;
+}
+
+.form{
+    width: 1200px;
+    margin: 2rem auto;
+    padding-left: 20px;
+}
+
+.form p{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+
+.form p{
+    font-size: 1rem;
+}
+.form h2,
+.form h3{
+    font-size: 1.2rem;
+}

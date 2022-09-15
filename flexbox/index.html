@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>form</title>
+    
+</head>
+
+<body>
+    <section class="form">
+
+        <form action="connect.php" method="post">
+    
+                <h3> What is the brand of your laptop</h3>
+                <br><br>
+                <p><input type="radio" value="hp"name="brand "> HP</p>
+                <p><input type="radio"value="dell" name="brand ">DELL</p>
+                <p><input type="radio" value="lenovo"name="brand ">LENOVO</p>
+                <p><input type="radio" value="acer"name="brand ">ACER</p>
+                <p><input type="radio" value="sony"name="brand ">SONY</p>
+                <p><input type="radio" value="toshiba"name="brand">TOSHIBA</p>
+        
+            <h2>Select the problem of your PC</h2>
+            <div class="checkboxing">
+                <label class="image-checkbox">
+                    <img src="beep_sound.png" alt="beep_sound">
+                    <input type="checkbox" name="a " value="beep_sound">
+                </label>
+                <label> <img src="broken_hinges.png" alt="">
+                    <input type="checkbox" name="b" value="beep_sound">
+                </label>
+                <label>
+                    <img src="broken_laptop_repair.png" alt="">
+                    <input type="checkbox" name="c" value="beep_sound">
+                </label>
+                <label>
+                    <img src="data_loss.png" alt="">
+                    <input type="checkbox" name="d" value="beep_sound">
+                </label>
+                <label>
+                    <img src="freeze_or_restart.png" alt="">
+                    <input type="checkbox" name="e" value="beep_sound">
+                </label>
+                <label> <img src="laptop_battey_not_charging.png" alt="">
+                    <input type="checkbox" name="f" value="beep_sound">
+                </label>
+                <label>
+                    <img src="keys_not_working.png" alt="">
+                    <input type="checkbox" name="g" value="beep_sound">
+                </label>
+                <label>
+                    <img src="laptop_blank_display.png" alt="">
+                    <input type="checkbox" name="h" value="beep_sound">
+                </label>
+                <label>
+                    <img src="laptop_charger.png" alt="">
+                    <input type="checkbox" name="i" value="beep_sound">
+                </label>
+                <label>
+                    <img src="laptop_keyboard_problem.png" alt="">
+                    <input type="checkbox" name="j" value="beep_sound">
+                </label>
+                <label>
+                    <img src="laptop_noise_issue.png" alt="">
+                    <input type="checkbox" name="k" value="beep_sound">
+                </label>
+                <label>
+                    <img src="laptop_overheating_issue.png" alt="">
+                    <input type="checkbox" name="l" value="beep_sound">
+                </label><label> <img src="laptopnot_poweron.png" alt="">
+                    <input type="checkbox" name="m" value="beep_sound">
+                </label>
+                <label>
+                    <img src="lcd_led_screen_repair.png" alt="">
+                    <input type="checkbox" name="n" value="beep_sound">
+                </label>
+                <label>
+                    <img src="liquid_spill.png" alt="">
+                    <input type="checkbox" name="o" value="beep_sound">
+                </label>
+                <label>
+                    <img src="motherboard_repair.png" alt="">
+                    <input type="checkbox" name="p" value="beep_sound">
+                </label>
+                <label>
+                    <img src="os_not_booting.png" alt="">
+                    <input type="checkbox" name="q" value="beep_sound">
+                </label>
+                <label>
+                    <img src="password_recovery.png" alt="">
+                    <input type="checkbox" name="r
+                    " value="beep_sound">
+                </label>
+                <label>
+                    <img src="touchpad_not_working.png" alt="">
+                    <input type="checkbox" name="s" value="beep_sound">
+                </label>
+                <label>
+                    <img src="virus.png" alt="">
+                    <input type="checkbox" name="t" value="beep_sound">
+                </label>
+                <label>
+                    <img src="wifi_problem.png" alt="">
+                    <input type="checkbox" name="u" value="beep_sound">
+                </label>
+                <label>
+                    <img src="webcam_not_working.png" alt="">
+                    <input type="checkbox" name="v" value="beep_sound">
+                </label>
+            </div>
+            <h3>Where do you require your Service?</h3>
+            <input type="text" name="House"placeholder="House/FlatNo">
+            <input type="text"name="Location" placeholder="Location">
+            <input type="text" name="Landmark"placeholder="Landmark">
+            <h3>Book a Date & Time</h3>
+            <input type="date" name="date">
+            <input type="time"name="time">
+            <h3>Please provide your Contact for Communication</h3>
+            <input type="tel" name="phonenumber" placeholder="9059-864-446" pattern="[0-9]{4}-0-9]{3}-0-9]{3}" required>
+            <br>
+            <button>
+                submit
+            </button>
+        </form>
+    </section>
+    </body>
+
+</html>
